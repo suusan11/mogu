@@ -1,0 +1,26 @@
+{
+  "name": "mogu",
+  "version": "1.0.0",
+  "description": "This is a repository that personal blog build by WordPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suusan11/mogu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suusan11/mogu/issues"
+  },
+  "homepage": "https://github.com/suusan11/mogu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
