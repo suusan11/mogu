@@ -4,7 +4,7 @@
   width: 100%;
 
   .article-container {
-    margin: 50px 0;
+    margin: 20% 0;
     border: 1px solid $gray-frame;
 
     img {
@@ -14,7 +14,8 @@
     }
 
     .article-info {
-      margin: 20px 0 20px 3%;
+      margin: 8% 0 8% 3%;
+      color: $black;
 
       h1 {
         padding-bottom: 10px;
