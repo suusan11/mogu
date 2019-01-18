@@ -1,0 +1,28 @@
+@import "variable", "typography";
+
+.article {
+  width: 100%;
+
+  .article-container {
+    margin: 50px 0;
+    border: 1px solid $gray-frame;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .article-info {
+      margin: 20px 0 20px 3%;
+
+      h1 {
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-weight: $font-weight-extraLight;
+      }
+    }
+  }
+}
