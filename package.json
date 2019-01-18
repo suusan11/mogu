@@ -1,0 +1,25 @@
+{
+  "name": "mogu",
+  "version": "1.0.0",
+  "description": "This is a repository that personal blog build by WordPress",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suusan11/mogu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suusan11/mogu/issues"
+  },
+  "homepage": "https://github.com/suusan11/mogu#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.16.1"
+  }
+}
