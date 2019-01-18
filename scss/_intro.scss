@@ -14,28 +14,12 @@
     }
 
     &::before {
-      content: "";
-      display: block;
-      width: 40%;
-      height: 2px;
-      border-top: 2px solid $red;
-      border-bottom: 2px solid $red;
-      position: absolute;
-      padding-top: 10px;
-      top: 10px;
+      @include lines;
       left: 0;
     }
 
     &::after {
-      content: "";
-      display: block;
-      width: 40%;
-      height: 2px;
-      border-top: 2px solid $red;
-      border-bottom: 2px solid $red;
-      position: absolute;
-      padding-top: 10px;
-      top: 10px;
+      @include lines;
       right: 0;
     }
   }
