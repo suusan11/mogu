@@ -25,7 +25,7 @@ html {
   font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: $font-weight-regular;
   -webkit-font-smoothing: subpixel-antialiased;
   font-variant-ligatures: common-ligatures;
   color: $black;
