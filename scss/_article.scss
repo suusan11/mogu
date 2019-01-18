@@ -25,4 +25,14 @@
       }
     }
   }
+
+  button {
+    display: block;
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: $gray-bg;
+    border: 1px solid $gray-frame;
+    cursor: pointer;
+  }
 }
