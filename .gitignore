@@ -7,5 +7,3 @@ package-lock.json
 .cache/
 .idea/
 dist
-
-yarn.lock
