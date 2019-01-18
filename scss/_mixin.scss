@@ -1,0 +1,15 @@
+@import "variable";
+
+//for responsive
+@mixin pcSize {
+  @media (min-width: (1000px)) {
+    @content;
+  }
+}
+
+
+@mixin vendorPrefix($property, $value) {
+  @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
+    #{$prefix}#{$property}: $value;
+  }
+}

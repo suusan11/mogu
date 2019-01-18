@@ -1,0 +1,38 @@
+@import "variable", "mixin";
+// _typography.scss defined everything about font-family
+
+
+// font-family
+$font-family-base: source-han-sans-japanese, sans-serif;
+
+// font-size
+$font-size-base: 14px;
+$font-size-h1: 1.428rem; //20px
+$font-size-li: 1.142rem; //16px
+
+
+//font-weight
+$font-weight-extraLight: 100;
+$font-weight-light: 200;
+$font-weight-normal: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-heavy: 900;
+
+
+html {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 1.2;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-variant-ligatures: common-ligatures;
+  color: $black;
+}
+
+@include pcSize {
+  html {
+    font-size: $font-size-base * 2;
+  }
+}
