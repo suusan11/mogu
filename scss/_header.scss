@@ -18,3 +18,11 @@ header {
     }
   }
 }
+
+@include pcSize {
+  header {
+    .nav {
+      height: 80px;
+    }
+  }
+}
