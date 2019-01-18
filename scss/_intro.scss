@@ -1,0 +1,35 @@
+@import "variable", "typography";
+
+.intro {
+  margin: 15% 0;
+
+  .intro-icon {
+    display: block;
+    width: 10%;
+    height: auto;
+    margin: 0 auto 50px;
+  }
+
+  .intro-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .intro-my-img {
+      width: 25%;
+      height: 80px;
+      object-fit: cover;
+      object-position: 0 20%;
+      border: $frame;
+    }
+
+    p {
+      display: inline-block;
+      width: 70%;
+      font-weight: $font-weight-light;
+      line-height: 1.5;
+      margin-left: 5%;
+    }
+  }
+
+}
