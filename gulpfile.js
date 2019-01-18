@@ -3,11 +3,20 @@ const sass = require('gulp-sass');
 const browserSync = require('browser-sync');
 const plumber = require("gulp-plumber");
 
-
-gulp.task('default', ['browserSyncTask'], function () {
-    gulp.watch('./scss/**/*.scss',['scss']);
-    gulp.watch('**/*.html', ['html']);
+//BrowserSync
+gulp.task("browserSyncTask", function () {
+    browserSync({
+        server: {
+            baseDir: "./",
+            index: "index.html"
+        }
+    });
 });
+
+gulp.task('default', gulp.series('browserSyncTask', function () {
+    gulp.watch('./scss/**/*.scss', gulp.task('scss'));
+    gulp.watch('**/*.html', gulp.task('html'));
+}));
 
 gulp.task('scss', function() {
     gulp.src('scss/**/*.scss')
@@ -20,15 +29,6 @@ gulp.task('scss', function() {
         .pipe(browserSync.reload({ stream:true }))
 });
 
-//BrowserSync
-gulp.task("browserSyncTask", function () {
-    browserSync.init({
-        server: {
-            baseDir: "./",
-            index: "index.html"
-        }
-    });
-});
 
 gulp.task('html', function() {
     gulp.src(['**/*.html'])

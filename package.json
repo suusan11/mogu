@@ -4,6 +4,7 @@
   "description": "This is a repository that personal blog build by WordPress",
   "main": "index.js",
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
