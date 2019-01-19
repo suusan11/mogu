@@ -1,6 +1,6 @@
 @import "variable", "typography";
 
-header {
+.header__main {
   width: 100%;
 
   .nav {
@@ -20,7 +20,7 @@ header {
 }
 
 @include pcSize {
-  header {
+  .header__main {
     .nav {
       height: 80px;
     }
