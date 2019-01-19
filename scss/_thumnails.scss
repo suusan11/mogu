@@ -1,9 +1,9 @@
 @import "variable", "typography";
 
-.article {
+.thumbnails {
   width: 100%;
 
-  .article-container {
+  .thumbnail-container {
     margin: 20% 0 10%;
     border: 1px solid $gray-frame;
 
@@ -13,7 +13,7 @@
       object-fit: cover;
     }
 
-    .article-info {
+    .thumbnail-info {
       margin: 8% 0 8% 3%;
       color: $black;
 
@@ -39,7 +39,7 @@
 }
 
 @include pcSize {
-  .article {
+  .thumbnails {
     display: flex;
     justify-content: flex-start;
     align-items: center;
