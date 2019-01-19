@@ -33,22 +33,10 @@ h1 {
   font-weight: $font-weight-bold;
 }
 
-@include pcSize {
-  h1 {
-    font-size: $font-size-h1 * 1.5;
-  }
-}
-
-
 p {
   font-size: $font-size-base;
 }
 
-@include pcSize {
-  p {
-    font-size: $font-size-base * 1.5;
-  }
-}
 
 a {
   text-decoration: none;
