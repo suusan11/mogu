@@ -8,6 +8,7 @@ footer {
   p {
     margin-left: 3%;
     line-height: 30px;
-    font-size: $font-size-base / 2;
+    font-size: $font-size-base - 2;
+    font-weight: $font-weight-extraLight;
   }
 }
