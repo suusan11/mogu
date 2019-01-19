@@ -57,3 +57,11 @@ a {
     text-decoration: none;
   }
 }
+
+@include pcSize {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
