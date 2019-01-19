@@ -47,3 +47,15 @@
     }
   }
 }
+
+@include pcSize {
+  .intro {
+    .intro-icon img {
+      width: 5%;
+    }
+
+    .intro-flex img {
+      width: 10%;
+    }
+  }
+}
