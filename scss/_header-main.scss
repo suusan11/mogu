@@ -3,7 +3,7 @@
 .header__main {
   width: 100%;
 
-  .nav {
+  &-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +21,7 @@
 
 @include pcSize {
   .header__main {
-    .nav {
+    &-nav {
       height: 80px;
     }
   }
