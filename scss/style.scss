@@ -4,9 +4,14 @@
 @import "global";
 @import "typography";
 
-//section
+//common section
+@import "footer";
+
+//for index.html
 @import "hero";
 @import "header";
-@import "article";
+@import "thumnails";
 @import "intro";
-@import "footer";
+
+//for article.html
+@import "article";
