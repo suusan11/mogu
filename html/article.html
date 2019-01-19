@@ -33,10 +33,13 @@
     <!--end header-->
 
     <section class="article">
+        <img src="../images/sample.jpeg" alt="sample img">
         <div class="article__header">
-            <img src="../images/sample.jpeg" alt="sample img">
             <h1 class="article-title">ザ・北米飯　ハンバーガー</h1>
-            <p class="article-date">20190101</p>
+            <div class="article__header--flex">
+                <p class="article-date">20190101</p>
+                <img class="category-icon" src="../images/burger.svg" alt="icon burger">
+            </div>
         </div>
         <div class="article__main">
             <p class="article-sentence">
@@ -53,18 +56,19 @@
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
             </p>
         </div>
-        <div class="article__category-icons">
-            <img src="../images/cutlery.svg" alt="icon cutlery">
-            <img src="../images/coffee-cup.svg" alt="icon coffee cup">
-            <img src="../images/burger.svg" alt="icon burger">
-        </div>
         <div class="article__footer">
-            <div class="prev">
-                <p>ザ・北米飯　ハンバーガー</p>
-            </div>
-            <div class="next">
-                <p>ザ・北米飯　ハンバーガー</p>
-            </div>
+            <a href="">
+                <div class="article__footer--flex prev">
+                    <img src="../images/arrow-left.svg" alt="arrow left">
+                    <p>ザ・北米飯　ハンバーガー</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="article__footer--flex next">
+                    <p>ザ・北米飯　ハンバーガー</p>
+                    <img src="../images/arrow-right.svg" alt="arrow right">
+                </div>
+            </a>
         </div>
     </section>
     <!--end article-->
