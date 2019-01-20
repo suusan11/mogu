@@ -17,7 +17,7 @@
       align-items: flex-end;
 
       p {
-        font-size: $font-size-base - 2;
+        font-size: $font-size-p - 2;
         font-weight: $font-weight-extraLight;
       }
 
@@ -32,18 +32,6 @@
     p.article-sentence {
       font-size: $font-weight-normal;
       line-height: 2;
-    }
-  }
-
-  .article__category-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 15% 0;
-
-    img {
-      width: 15%;
-      padding-right: 5%;
     }
   }
 
@@ -84,3 +72,16 @@
   }
 }
 
+@include pcSize {
+  .article {
+    img {
+      width: 100%;
+    }
+
+    .article__header {
+      .category-icon {
+        width: 3%;
+      }
+    }
+  }
+}
