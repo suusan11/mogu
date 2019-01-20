@@ -1,0 +1,10 @@
+@import "variable", "mixin";
+
+.archive {
+  margin: 20% auto;
+  padding: 10%;
+
+  &__date::after {
+    @include underLine;
+  }
+}
