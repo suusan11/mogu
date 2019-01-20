@@ -1,0 +1,25 @@
+@import "mixin";
+
+.category {
+  margin: 20% auto;
+  padding: 10%;
+  text-align: left;
+
+  .category__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 8%;
+
+    img {
+      width: 10%;
+    }
+
+    &::after {
+      @include underLine;
+      margin-top: 3%;
+    }
+  }
+}
