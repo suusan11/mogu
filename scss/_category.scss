@@ -1,11 +1,15 @@
-@import "mixin";
+@import "variable", "mixin";
 
 .category {
   margin: 20% auto;
   padding: 10%;
   text-align: left;
 
-  .category__items {
+  a {
+    color: $black;
+  }
+
+  &__items {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -20,6 +24,16 @@
     &::after {
       @include underLine;
       margin-top: 3%;
+    }
+  }
+}
+
+@include pcSize {
+  .category {
+    margin: 10% auto;
+
+    &__items img {
+      width: 5%;
     }
   }
 }
