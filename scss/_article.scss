@@ -83,3 +83,11 @@
     }
   }
 }
+
+@include pcSize {
+  .header__sub {
+    &-nav {
+      height: 80px;
+    }
+  }
+}
