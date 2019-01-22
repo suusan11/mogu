@@ -37,6 +37,9 @@ p {
   font-size: $font-size-p;
 }
 
+.copy-right {
+  font-size: $font-size-base - 4;
+}
 
 a {
   text-decoration: none;
