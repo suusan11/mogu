@@ -4,7 +4,7 @@
   "description": "This is a repository that personal blog build by WordPress",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html article.html",
+    "build": "parcel build index.html html/article.html html/archive.html html/category.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
