@@ -39,6 +39,10 @@ p {
 
 .copy-right {
   font-size: $font-size-base - 4;
+
+  @include pcSize {
+    font-size: $font-size-base;
+  }
 }
 
 a {
