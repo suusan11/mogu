@@ -67,7 +67,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -101,6 +101,18 @@ h1 {
   font-size: 1.428rem;
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 1.285rem;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.142rem;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
 }
 
 p {
@@ -144,7 +156,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -160,7 +172,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -198,7 +210,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -239,7 +251,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -312,7 +324,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -401,7 +413,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -451,7 +463,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 
@@ -484,8 +496,13 @@ html {
   margin-left: 2%;
 }
 
-.article .article__main p.article-sentence {
-  font-size: 300;
+.article .article__main .article-h2 {
+  font-size: 1.285rem;
+  font-weight: 400;
+}
+
+.article .article__main .article-sentence {
+  font-weight: 200;
   line-height: 2;
 }
 
@@ -561,7 +578,7 @@ html {
 
 @media (min-width: 1000px) {
   html {
-    font-size: 21px;
+    font-size: 18.2px;
   }
 }
 

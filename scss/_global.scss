@@ -32,7 +32,16 @@ h1 {
   font-family: $font-family-base;
   font-weight: $font-weight-bold;
 }
-
+h2 {
+  font-size: $font-size-h2;
+  font-family: $font-family-base;
+  font-weight: $font-weight-regular;
+}
+h3 {
+  font-size: $font-size-h3;
+  font-family: $font-family-base;
+  font-weight: $font-weight-regular;
+}
 p {
   font-size: $font-size-p;
 }
