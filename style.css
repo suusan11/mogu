@@ -497,8 +497,12 @@ html {
 }
 
 .article .article__main .article-h2 {
+  display: inline-block;
   font-size: 1.285rem;
   font-weight: 400;
+  background: linear-gradient(transparent 80%, rgba(232, 80, 30, 0.5) 80%);
+  padding-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .article .article__main .article-sentence {
