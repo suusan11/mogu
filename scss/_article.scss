@@ -30,13 +30,16 @@
 
   .article__main {
     .article-h2 {
-      display: inline-block;
-      font-size: $font-size-h2;
-      font-weight: $font-weight-regular;
       background: linear-gradient(transparent 80%, $header-highlight 80%);
       border-radius: 2px;
       padding-bottom: 2%;
-      margin-bottom: 3%;
+      margin: 3% 0;
+    }
+    .article-h3 {
+      background: linear-gradient(transparent 80%, $header-highlight-sub 80%);
+      border-radius: 2px;
+      padding-bottom: 2%;
+      margin: 3% 0;
     }
     .article-sentence {
       font-weight: $font-weight-light;
