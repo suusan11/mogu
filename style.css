@@ -71,6 +71,12 @@ html {
   }
 }
 
+@media (min-width: 650px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   list-style: none;
@@ -162,6 +168,12 @@ html {
   }
 }
 
+@media (min-width: 650px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
 html {
   font-family: source-han-sans-japanese, sans-serif;
   font-size: 14px;
@@ -173,6 +185,12 @@ html {
 }
 
 @media (min-width: 1000px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
+@media (min-width: 650px) {
   html {
     font-size: 18.2px;
   }
@@ -216,6 +234,12 @@ html {
   }
 }
 
+@media (min-width: 650px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
 .header__main {
   width: 100%;
 }
@@ -246,6 +270,12 @@ html {
 }
 
 @media (min-width: 1000px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
+@media (min-width: 650px) {
   html {
     font-size: 18.2px;
   }
@@ -319,6 +349,12 @@ html {
 }
 
 @media (min-width: 1000px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
+@media (min-width: 650px) {
   html {
     font-size: 18.2px;
   }
@@ -413,6 +449,12 @@ html {
   }
 }
 
+@media (min-width: 650px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
 .header__sub {
   width: 100%;
 }
@@ -452,6 +494,12 @@ html {
 }
 
 @media (min-width: 1000px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
+@media (min-width: 650px) {
   html {
     font-size: 18.2px;
   }
@@ -576,6 +624,12 @@ html {
 }
 
 @media (min-width: 1000px) {
+  html {
+    font-size: 18.2px;
+  }
+}
+
+@media (min-width: 650px) {
   html {
     font-size: 18.2px;
   }
