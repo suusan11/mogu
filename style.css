@@ -501,6 +501,7 @@ html {
   font-size: 1.285rem;
   font-weight: 400;
   background: linear-gradient(transparent 80%, rgba(232, 80, 30, 0.5) 80%);
+  border-radius: 2px;
   padding-bottom: 2%;
   margin-bottom: 3%;
 }
