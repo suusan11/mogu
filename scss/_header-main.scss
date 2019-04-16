@@ -8,21 +8,13 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 30px;
+    height: 80px;
     padding: 0 5%;
     background-color: $red;
 
     a {
       color: $white;
       font-weight: $font-weight-normal;
-    }
-  }
-}
-
-@include pcSize {
-  .header__main {
-    &-nav {
-      height: 80px;
     }
   }
 }
