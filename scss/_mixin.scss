@@ -11,6 +11,11 @@
     @content;
   }
 }
+@mixin mobileSize {
+  @media (max-width: 649px) {
+    @content;
+  }
+}
 
 @mixin vendorPrefix($property, $value) {
   @each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
